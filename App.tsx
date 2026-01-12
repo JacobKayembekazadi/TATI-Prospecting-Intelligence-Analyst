@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
-import { analyzeIntelligence } from './services/geminiService';
+import { analyzeIntelligence } from './services/openaiService';
 import { AnalysisEntry } from './types';
 import { AnalysisDisplay } from './components/AnalysisDisplay';
 import { EXAMPLE_INPUTS } from './constants';
