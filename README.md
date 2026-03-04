@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# TATI — Prospecting Intelligence Analyst
 
-# Run and deploy your AI Studio app
+An AI agent that researches, scores, and prioritizes sales prospects automatically. Feed it a company name and it returns a full intelligence brief: pain points, buying signals, org structure, and a recommended outreach angle.
 
-This contains everything you need to run your app locally.
+## What it does
 
-View your app in AI Studio: https://ai.studio/apps/drive/1CnSge--9PWyyAPb98RO1pY9qb6hus4DV
+- **Research** — scrapes company data, news, LinkedIn signals, tech stack
+- **Score** — ranks prospects by fit, urgency, and budget indicators  
+- **Brief** — generates a 1-page intelligence report per prospect
+- **Recommend** — suggests the best outreach angle and contact to target
 
-## Run Locally
+## Built for
 
-**Prerequisites:**  Node.js
+SDRs, consultants, and founders who need to qualify leads fast without a research team.
 
+## Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+React · TypeScript · Gemini API · Vite · Tailwind CSS
+
+## Part of the TATI Agent Suite
+
+- TATI-Prospecting-Intelligence-Analyst (this repo)
+- TATI-Logistics-Assistant
+- TATI-Sales-Assistant
+
+Built by [Sloe Labs](https://sloelabs.com)
+
